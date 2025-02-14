@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    <h1>you are looking at question {{question.id}}</h1>
+    <div>
+        {%if choice %}
+        <ul>
+            {%for vote in choice%}
+            <li>
+                {{vote.choice_text}}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</body>
+</html>
