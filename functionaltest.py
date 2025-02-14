@@ -3,9 +3,10 @@
 #title of web is poll 
 #tanny find question
 #tanny click question
-#tanny was bring to choice
+#tanny was bring to choice page
 #tanny click choice  to vote
-#vote is update
-#tanny vote
-#tanny select vote choice 
-#tanny save vote
+#bring to vote page 
+#click vote form
+#submit vote form
+#bring to result
+#tanny close web
